@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.qqlogin.MainActivity">
+
+    <ImageView
+        android:id="@+id/QQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qq"
+        android:layout_margin="40dp"
+        android:layout_centerHorizontal="true"
+
+         />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/QQ"
+        android:background="#ffffff"
+        android:padding="17dp"
+
+        />
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:padding="17dp"
+        android:layout_marginTop="3dp"
+        android:background="#ffffff"
+        />
+    <Button
+        android:id="@+id/TIJIAO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pwd"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:text="登录"
+        android:textColor="#fccc"
+        android:textSize="55px"
+        android:background="#00f"
+
+        />
+</RelativeLayout>
